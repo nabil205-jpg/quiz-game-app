@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Beautiful Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz Challenge</h1>
+
+    <form id="user-form" aria-label="Enter your details to start quiz">
+      <label for="username">Your Name:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your name" autocomplete="off" required />
+      <button type="submit" id="start-quiz-btn" aria-label="Start Quiz">Start Quiz</button>
+    </form>
+
+    <section id="quiz" aria-live="polite" aria-atomic="true" tabindex="0">
+      <div id="welcome-msg" style="margin-bottom: 12px; font-weight: 600; font-size: 1.2rem; color: #bdbfff;"></div>
+      <div id="question">Question text will appear here</div>
+      <div class="answer-buttons" role="group" aria-label="Answer choices"></div>
+      <button id="next-btn" aria-label="Next question">Next</button>
+      <div id="score-container" aria-live="polite"></div>
+      <button id="restart-btn">Restart Quiz</button>
+    </section>
+  </div>
+
+  
+
+  <script src="java.js">
+   
+  </script>
+</body>
+</html>
+
