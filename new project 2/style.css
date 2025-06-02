@@ -1,0 +1,68 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f2efe5;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.quotes-page {
+  text-align: center;
+  padding: 40px;
+  background-color: #fff8dc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #aaa;
+  width: 90%;
+  max-width: 600px;
+}
+
+h2 {
+  color: #4b3f2f;
+}
+
+.quote-card {
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-left: 5px solid #4b3f2f;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.quote-card p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.quote-card h4 {
+  margin-top: 0;
+  color: #555;
+}
+
+.nav-buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  background: #4b3f2f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #6a5944;
+}
+
+.back-button {
+  margin-top: 20px;
+  background-color: #888;
+}
